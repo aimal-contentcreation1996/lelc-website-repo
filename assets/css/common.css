@@ -1,0 +1,57 @@
+html {
+	scroll-behavior: smooth;
+	background-color: #FDF5F5 !important;
+}
+nav img{
+	width: 160px;
+}
+body::-webkit-scrollbar {
+	display: none;
+
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+.form-control {
+	border: none !important;
+	outline: none !important;
+}
+
+button {
+	border: none !important;
+	outline: none !important;
+}
+
+.form-control:focus {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+
+input {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+nav ul li{
+	padding: 0 8px;
+}
+nav ul li a {
+	color: #1E1E24;
+	font-size: 0.99rem;
+	transition: all 0.4s ease-in-out;
+	font-weight: 400;
+
+}
+
+nav ul li a:hover {
+	color: #d00000;
+	transition: all 0.4s ease-in-out;
+}
+
+nav ul li .active {
+	color: #d00000;
+}
