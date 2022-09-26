@@ -2,9 +2,15 @@ html {
 	scroll-behavior: smooth;
 	background-color: #FDF5F5 !important;
 }
-nav img{
+
+.fixed-top {
+	transition: all 0.4s ease-in-out !important;
+}
+
+nav img {
 	width: 160px;
 }
+
 body::-webkit-scrollbar {
 	display: none;
 
@@ -36,9 +42,11 @@ input {
 	outline: none;
 	box-shadow: none;
 }
-nav ul li{
+
+nav ul li {
 	padding: 0 8px;
 }
+
 nav ul li a {
 	color: #1E1E24;
 	font-size: 0.99rem;
@@ -54,4 +62,108 @@ nav ul li a:hover {
 
 nav ul li .active {
 	color: #d00000;
+}
+
+#secondBar {
+	top: 100px !important;
+	background-color: transparent !important;
+	color: white !important;
+	height: auto;
+	overflow: hidden !important;
+	z-index: 99999999 !important;
+	transition: all 0.4s ease-in-out !important;
+}
+
+#secondBar p {
+	font-size: 0.99rem;
+}
+
+#animate {
+	padding-left: 10px;
+	animation: movingTopToBottom 5s linear infinite;
+	position: relative;
+	animation-duration: 5s;
+
+}
+
+@keyframes movingTopToBottom {
+	0% {
+		top: -15px;
+	}
+
+	100% {
+		top: 50px;
+	}
+
+
+}
+
+.view {
+	border: 2px solid white;
+	color: white;
+	width: 100px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.view:hover {
+
+	color: white;
+
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+h1 {
+	font-size: 2.625rem;
+}
+
+p {
+	font-size: 0.938rem;
+}
+
+a {
+	font-size: 0.938rem;
+}
+
+.swiper-pagination-bullet {
+	background-color: #d00000;
+	opacity: 0.3;
+}
+
+.swiper-pagination-bullet-active {
+	width: 30px;
+	border-radius: 5px;
+	background-color: rgb(208, 0, 0) !important;
+	opacity: 0.8;
 }
