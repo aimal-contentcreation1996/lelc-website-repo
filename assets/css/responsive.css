@@ -38,6 +38,12 @@
 	.expert {
 		padding: 50px 0;
 	}
+
+	.slider-4 .box-2 {
+		padding: 0 30px;
+	}
+
+
 }
 
 @media only screen and (max-width: 1099px) {
@@ -69,6 +75,14 @@
 
 /* 991 */
 @media only screen and (max-width: 991.5px) {
+	.team .box {
+		padding: 50px 30px 10px;
+	}
+
+	.team .box-2 {
+		padding: 0 30px;
+	}
+
 	.contact-f {
 		padding-bottom: 40px;
 	}
@@ -131,14 +145,23 @@
 	.contact-f {
 		padding: 40px 0px 0px;
 	}
+
+	.team .box {
+		padding: 80px 10px 10px;
+	}
+
+	.team .box-2 {
+		padding: 0 5px;
+	}
 }
 
 /* 575 */
 
 @media only screen and (max-width: 575.5px) {
-	.footer{
+	.footer {
 		padding: 50px 15px 5px;
 	}
+
 	.contact-f .sub-box {
 		padding: 30px 15px 10px;
 	}
@@ -189,6 +212,24 @@
 	.slider-3 .box {
 		padding: 50px 10px 20px;
 	}
+
+	.vwrap,
+	.vitem {
+		height: 30px;
+		line-height: 30px;
+	}
+
+	.nav-item h6 {
+		white-space: nowrap;
+	}
+
+	.slider-4 .box {
+		padding: 20px 15px;
+	}
+
+	.slider-4 .box-2 {
+		padding: 0 15px;
+	}
 }
 
 /* 400 */
@@ -211,5 +252,22 @@
 
 	.slider-1 .swiper-slide {
 		width: 100% !important;
+	}
+
+	.vwrap,
+	.vitem {
+		height: 45px;
+		line-height: 20px;
+		width: 100%;
+	}
+
+	.slider-4 .box-2 {
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	h1 {
+		font-size: 1.8rem;
 	}
 }
