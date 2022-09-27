@@ -1,0 +1,7 @@
+<svg id="Group_30586" data-name="Group 30586" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Ellipse_1367" data-name="Ellipse 1367" fill="none" stroke="#bebebe" stroke-width="1">
+    <circle cx="25" cy="25" r="25" stroke="none"/>
+    <circle cx="25" cy="25" r="24.5" fill="none"/>
+  </g>
+  <path id="Icon_material-computer" data-name="Icon material-computer" d="M25,23.5A2.5,2.5,0,0,0,27.488,21L27.5,8.5A2.507,2.507,0,0,0,25,6H5A2.507,2.507,0,0,0,2.5,8.5V21A2.507,2.507,0,0,0,5,23.5H0V26H30V23.5ZM5,8.5H25V21H5Z" transform="translate(10.343 9)"/>
+</svg>

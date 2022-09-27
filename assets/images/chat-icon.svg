@@ -1,0 +1,11 @@
+<svg id="Group_30593" data-name="Group 30593" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Ellipse_1364" data-name="Ellipse 1364" fill="none" stroke="#bebebe" stroke-width="1">
+    <circle cx="25" cy="25" r="25" stroke="none"/>
+    <circle cx="25" cy="25" r="24.5" fill="none"/>
+  </g>
+  <g id="Group_27369" data-name="Group 27369" transform="translate(12.843 14.167)">
+    <path id="Icon_material-chat_bubble_outline" data-name="Icon material-chat_bubble_outline" d="M25.5,3H5.5A2.507,2.507,0,0,0,3,5.5V26.625L9.815,23H25.5A2.507,2.507,0,0,0,28,20.5V5.5A2.507,2.507,0,0,0,25.5,3Z" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Path_30343" data-name="Path 30343" d="M8.9,12.367H19.049" transform="translate(-1.409 -4.001)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+    <path id="Path_30344" data-name="Path 30344" d="M8.9,12.367H19.049" transform="translate(-1.409 -0.668)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>

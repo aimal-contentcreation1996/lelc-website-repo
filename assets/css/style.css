@@ -764,6 +764,214 @@ nav .fa-search:hover {
   padding-bottom: 50px;
 }
 
+.programe-2 {
+  background-color: white;
+  margin: 123px 20px 20px 20px;
+  border-radius: 10px;
+  padding: 30px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.programe-2 .box h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.programe-2 .box .link {
+  color: #7C7C7C;
+  text-decoration: none;
+}
+.programe-2 .box .red {
+  background: rgb(212, 6, 6);
+  background: linear-gradient(157deg, rgb(212, 6, 6) 0%, rgb(55, 28, 113) 100%);
+  color: white;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  padding-top: 7px;
+  display: inline-block;
+}
+.programe-2 .box-2 {
+  padding-top: 15px;
+  height: 100%;
+}
+.programe-2 .box-2 .sub-box {
+  background-color: #F8F8F8;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.programe-2 .box-2 .sub-box h5 {
+  color: #7C7C7C;
+  font-size: 0.938rem;
+  text-transform: capitalize;
+}
+.programe-2 .box-2 .sub-box .fa-star {
+  color: #E89005;
+}
+.programe-2 .box-3 {
+  padding-top: 30px;
+  height: 100%;
+}
+.programe-2 .box-3 .left-box {
+  height: 100%;
+}
+.programe-2 .box-3 .left-box h2 {
+  font-size: 1.5rem;
+}
+.programe-2 .box-3 .left-box h5 {
+  font-size: 0.938rem;
+}
+.programe-2 .box-3 .right-box {
+  height: 100%;
+}
+.programe-2 .box-3 .right-box .sub-box {
+  padding: 30px;
+  background: rgb(212, 6, 6);
+  background: linear-gradient(157deg, rgb(212, 6, 6) 0%, rgb(55, 28, 113) 100%);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 50%;
+}
+.programe-2 .box-3 .right-box .sub-box h3 {
+  font-size: 1.25rem;
+}
+.programe-2 .box-3 .right-box .sub-box p {
+  font-size: 0.938rem;
+  opacity: 0.6;
+}
+.programe-2 .box-3 .right-box .sub-box-2 {
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #BEBEBE;
+  height: 50%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.programe-2 .box-3 .right-box .sub-box-2 h2 {
+  font-size: 1.5rem;
+}
+.programe-2 .box-3 .right-box .sub-box-2 h3 {
+  font-size: 1.25rem;
+}
+
+.programe-3 {
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 30px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.programe-3 h2 {
+  font-size: 1.5rem;
+}
+.programe-3 .box h2 {
+  font-size: 1.5rem;
+}
+.programe-3 .box h3 {
+  font-size: 1.25rem;
+}
+.programe-3 .sub-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  border: 1px solid #BEBEBE;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 0;
+}
+.programe-3 .sub-box h5 {
+  font-size: 1rem;
+}
+.programe-3 .sub-box h1 .small {
+  font-size: 0.9rem !important;
+}
+.programe-3 .sub-box .fa-star {
+  color: #E89005;
+}
+.programe-3 .sub-box h6 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #171717;
+}
+.programe-3 .box-3 {
+  padding-top: 5px;
+}
+.programe-3 .box-3 .swiper {
+  width: 100%;
+  height: 100%;
+}
+.programe-3 .box-3 .swiper-wrapper {
+  padding-bottom: 80px;
+}
+.programe-3 .box-3 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.programe-3 .box-3 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.programe-3 .box-3 .swiper-pagination {
+  text-align: end;
+}
+.programe-3 .box-3 .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: transparent;
+}
+.programe-3 .box-3 .swiper-pagination-bullet-active {
+  color: #171717;
+  background: #E8E8E8 !important;
+  opacity: 1;
+}
+.programe-3 .box-3 .sub-box-2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 100%;
+  text-align: left;
+  border: 1px solid #BEBEBE;
+  border-radius: 10px;
+  padding: 30px;
+}
+.programe-3 .box-3 .sub-box-2 h5 {
+  font-size: 1rem;
+  color: #BEBEBE;
+  font-weight: 400;
+}
+.programe-3 .box-3 .sub-box-2 .fa-star {
+  font-size: 0.9rem;
+  color: #E89005;
+}
+
 .footer {
   display: flex;
   justify-content: center;

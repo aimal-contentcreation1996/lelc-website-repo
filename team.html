@@ -33,7 +33,7 @@
                         <a class="nav-link" href="#">Programmes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Team</a>
+                        <a class="nav-link active" href="#">Our Team</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
@@ -48,7 +48,7 @@
                         </form>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active" href="#">Login</a>
+                        <a class="nav-link" href="#">Login</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#!">Signup</a>
@@ -185,58 +185,40 @@
         // Content-1 Img-1
     $(document).ready(function(){
         // Image show/Hide
-        $('.img-height-1').mouseenter(function(){
-            $('.img-height-2, .img-height-3').hide();
-        });
-        // content show
-        $('.img-height-1').mouseenter(function(){
-            $('.content-1').show();
-        });
+        $('.img-height-1').hover(function(){
+            $('.img-height-2, .img-height-3').css('display','none');
+            // content show
+            $('.content-1').css('display','block');
+        },function(){
+            $('.img-height-2, .img-height-3').css('display', '');
+            // content show
+            $('.content-1').css('display', '');
 
-        $('.img-height-1').mouseleave(function(){
-            $('.img-height-2, .img-height-3').show();
-        });
-        // content show
-        $('.img-height-1').mouseleave(function(){
-            $('.content-1').hide();
-        });
-    })
-        // Content-2 Img-2
-    $(document).ready(function(){
-        $('.img-height-2').mouseenter(function(){
-            $('.img-height-1, .img-height-3').hide();
-        });
-        // content show
-        $('.img-height-2').mouseenter(function(){
-            $('.content-2').show();
-        });
-
-        $('.img-height-2').mouseleave(function(){
-            $('.img-height-1, .img-height-3').show();
-        });
-        // content show
-        $('.img-height-2').mouseleave(function(){
-            $('.content-2').hide();
-        });
-    })
-        // Content-3 Img-3
-    $(document).ready(function(){
+        } );
         // Image show/Hide
-         $('.img-height-3').mouseenter(function(){
-            $('.img-height-1, .img-height-2').hide();
-        });
-        // content show
-        $('.img-height-3').mouseenter(function(){
-            $('.content-3').show();
-        });
+        $('.img-height-2').hover(function(){
+            $('.img-height-1, .img-height-3').css('display','none');
+            // content show
+            $('.content-2').css('display','block');
+        },function(){
+            $('.img-height-1, .img-height-3').css('display', '');
+            // content show
+            $('.content-2').css('display', '');
 
-        $('.img-height-3').mouseleave(function(){
-            $('.img-height-1, .img-height-2').show();
-        });
-        // content show
-        $('.img-height-3').mouseleave(function(){
-            $('.content-3').hide();
-        });
+        } );
+        // Image show/Hide
+        $('.img-height-3').hover(function(){
+            $('.img-height-2, .img-height-1').css('display','none');
+            // content show
+            $('.content-3').css('display','block');
+        },function(){
+            $('.img-height-2, .img-height-1').css('display', '');
+            // content show
+            $('.content-3').css('display', '');
+
+        } );
+        
+
     })
     </script>
 </html>
