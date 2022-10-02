@@ -2,11 +2,13 @@ html {
 	scroll-behavior: smooth;
 	background-color: #FDF5F5 !important;
 }
+body{
+transition: all 0.9s ease-in-out !important;
+}
 
 .fixed-top {
 	transition: all 0.4s ease-in-out !important;
 }
-
 nav img {
 	width: 160px;
 }

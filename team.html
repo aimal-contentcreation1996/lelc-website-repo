@@ -112,7 +112,7 @@
                                 <img src="./assets/images/Rose.png" width="100%" alt="">
                             </div>
                         </div>
-                        <div class="col-8 content-1">
+                        <div class="col-lg-8 col-md-6 col-sm-12 mt-md-0 mt-3 content-1">
                             <div class="box-3 ">
                                 <h2>Dr.Mahaganapathy Dass</h2>
                                 <h6>Cheif Executive Officer</h6>
@@ -127,7 +127,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-8 content-2">
+                        <div class="col-lg-8 col-md-6 col-sm-12 mt-md-0 mt-3  content-2">
                             <div class="box-3 ">
                                 <h2>Dr.Mahaganapathy Dass</h2>
                                 <h6>Cheif Executive Officer</h6>
@@ -142,7 +142,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-8 content-3">
+                        <div class="col-lg-8 col-md-6 col-sm-12 mt-md-0 mt-3 content-3">
                             <div class="box-3 ">
                                 <h2>Dr.Mahaganapathy Dass</h2>
                                 <h6>Cheif Executive Officer</h6>
@@ -184,27 +184,27 @@
     <script>
         // Content-1 Img-1
         $(document).ready(function () { // Image show/Hide
-            $('.img-height-1').click(function () {
-                $('.img-height-2, .img-height-3').css('display', 'none');
+            $('.img-height-1').hover(function () {
+                $('.img-height-2, .img-height-3').hide('slow');
                 // content show
-                $('.content-1').css('display', 'block');
+                $('.content-1').show('slow');
 
 
             });
-            // Image show/Hide
-            $('.img-height-2').click(function () {
-                $('.img-height-1, .img-height-3').css('display', 'none');
+            // Image show/Hide 2
+            $('.img-height-2').hover(function () {
+                $('.img-height-1, .img-height-3').hide('slow');
                 // content show
-                $('.content-2').css('display', 'block');
+                $('.content-2').show('slow');
 
 
             });
 
-            // Image show/Hide
-            $('.img-height-3').click(function () {
-                $('.img-height-1, .img-height-2').css('display', 'none');
+            // Image show/Hide 3
+            $('.img-height-3').hover(function () {
+                $('.img-height-2, .img-height-1').hide('slow');
                 // content show
-                $('.content-3').css('display', 'block');
+                $('.content-3').show('slow');
 
 
             });
